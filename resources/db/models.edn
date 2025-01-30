@@ -1,6 +1,0 @@
-{:book [[:id :serial {:primary-key true}]
-        [:name [:varchar 255] {:null false}]
-        [:description :text]]
-
- :pod [[:id :serial {:primary-key true}]
-       [:message [:varchar 255] {:null false}]]}
