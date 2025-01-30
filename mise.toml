@@ -1,0 +1,14 @@
+[tools]
+java = "temurin-21.0.5+11"
+
+[tasks.format]
+run = "clojure -M:format"
+
+[tasks.test]
+run = "clojure -M:test"
+
+[tasks.antq]
+run = "clojure -M:antq"
+
+[tasks.repl]
+run = "clojure -X:test:repl ct.repl/start!"

@@ -1,0 +1,11 @@
+({:action :create-table,
+  :model-name :book,
+  :fields
+  {:id {:primary-key true, :type :serial},
+   :name {:null false, :type [:varchar 255]},
+   :description {:type :text}}}
+ {:action :create-table,
+  :model-name :pod,
+  :fields
+  {:id {:primary-key true, :type :serial},
+   :message {:null false, :type [:varchar 255]}}})
